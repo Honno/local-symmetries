@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "local-symmetries"
+version = "0.0.0"
+description = "Calculate the number of symmetries in a binary sequence"
+authors = ["Matthew Barber <quitesimplymatt@gmail.com>"]
+license = "BSD-3-Clause"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.1.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
